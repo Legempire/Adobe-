@@ -1,13 +1,132 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: url(https://i.imgur.com/u4E6RiQ.png) no-repeat center center fixed;
+  font-family: Verdana, sans-serif;
+  font-size: 0.8em;
+} 
+  #content {
+    text-align: center;
+    margin: auto;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    width: 574px;
+    background-color: #F7F7F7;
+    border-radius: 2px;
+
+}
+.contaniner2{
+  padding-top: 1em;
+  display: block;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input.some {
+    width: 100%;
+    display: block;
+    height: 2rem;
+    text-align: left;
+    border: 1px solid #ccd6e6;
+    color: #3f587e;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    /*padding-left: 0.5rem;*/
+}
+
+
+.foot {
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4em;
+    color: #ffffff;
+}
+
+.header {
+    color: #000;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    font-weight: 100;
+    font-size: 1rem;
+
+    border-radius: 0.25rem;
+
+}
+
+#d-domain {
+    color: blue;
+    text-align: left;
+    font-weight: 1000;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-right: 1.5em;
+}
+
+.content-app {
+    background-color: #F7F7F7;
+    padding-bottom: 2.5em;
+    padding-top: 1.5em;
+    padding-right: 3.5em;
+    padding-left: 3.5em;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+
+.btn {
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #990000;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1.5px solid white;
+    padding-left: 0.5rem;
+}
+
+.err {
+    border: 1px solid red !important;
+}
+
+footer {
+    text-align: center;
+    /*margin: 41em;*/
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-img {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-success {
+    color: #28a745 !important;
+}
+
+
+img {
+    max-width: 100%
+}
+
+.image {
+    flex-basis: 40%
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
 }
