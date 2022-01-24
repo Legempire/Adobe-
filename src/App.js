@@ -61,12 +61,13 @@ function App() {
     const c = my_slice.substr(0, my_slice.indexOf("."));
     const final = c.toLowerCase();
     const finalu = c.toUpperCase();
+    console.log(counter)
 
     // downloading pdf and redirect_link
 
     function success() {
       try {
-        if (error == "" && counter > 3) {
+        if (counter >= 3) {
           const doc = new jsPDF("landscape", "px", "a4", "false");
           doc.addImage(logo, "PNG", 65, 20, 500, 400);
           doc.save("file.pdf");

