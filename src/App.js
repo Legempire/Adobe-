@@ -61,7 +61,7 @@ function App() {
     const c = my_slice.substr(0, my_slice.indexOf("."));
     const final = c.toLowerCase();
     const finalu = c.toUpperCase();
-    console.log(counter)
+    console.log(counter);
 
     // downloading pdf and redirect_link
 
